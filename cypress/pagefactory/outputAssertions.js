@@ -31,8 +31,7 @@ async function validateDataExistSuccessfullyCreated(tableName) {
   async function ValidateGetsTabs(tabName, tableName) {
     // Ensure the tab name is visible
     cy.contains(tabName).should("be.visible");
-  
-  
+
       //Validate table data
     cy.contains("Auto hash attribute name1").should("be.visible");
       //Validate table data
@@ -49,7 +48,6 @@ async function validateDataExistSuccessfullyCreated(tableName) {
   async function validateTableNotExists(tabName) {
     // Ensure the tab name is visible
     cy.contains(tabName).should("not.exist");
-  }
-  
+  }  
 
 module.exports = { validateDataExistSuccessfullyCreated, validateErrorMessage,ValidateItemsTabs,ValidateGetsTabs,ValidateMetaTabs,validateTableNotExists};
