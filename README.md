@@ -17,14 +17,6 @@ Visual Studio IDE  , to view the files
 
 **TestCases**
 
-1. Error Message on Entering Alphabet Characters in Currency Convertor Calculator
-2. Currency Convert of Given Amount From INR
-3. Validate Convert Button and Currency Conver to Given Amount Via Calculator GPB to EUR
-
-**TestSuit:UserStory1**
-
-**TestCases**
-
 1. 1_createTable.cy
 2. 2_validateErrorMessageOnTableCreationWhenEnterTableNameWithTheSpace
 3. 3_validateErrorMessageOnTableCreationWhenEnterTableNameSameWhichAlreadyExists
