@@ -1,6 +1,4 @@
 # QA Automation Test - Tables
-Automation for XeCurrencyConvertor, as per requirements
-User Story1, User Story2 and API Scenarios Covered 
 
 **Pre requisites**
 Node js -v20.11.1 or any latest version
