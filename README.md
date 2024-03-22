@@ -15,14 +15,7 @@ Visual Studio IDE  , to view the files
  npm run test
  #Cypress window will open, select the test case which need to be executed
 
-**TestSuit1:API Scenarios**
-
-**TestCases**
-
-1. Validate GET Request, Validate Response Message Body Have Content and not Contain Word Zombie
-2. Validate POST Request Validate Status and Validate Topping Contains Bacon Cheese and Mushroom but not Contain Chicken
-
-**TestSuit2:UserStory1**
+**TestSuit:UserStory1**
 
 **TestCases**
 
