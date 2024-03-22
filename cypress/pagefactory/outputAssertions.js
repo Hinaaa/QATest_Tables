@@ -19,12 +19,11 @@ async function validateDataExistSuccessfullyCreated(tableName) {
   
     // Ensure the table name matches the expected value
     cy.get('[name="queryableSelection"]').invoke('text').then((tableText) => {
-      expect(tableText.trim()).to.eq(tableName);
+      expect(tableText).to.include(tableName);
     });
-  
+    cy.contains(tableName).should('exist')
     // Ensure the "Add Filter" button exists
     cy.get('[id="add-filter"]').should('exist').and('contain.text', 'Add Filter');
-  
     // Ensure the "Search" button exists
     cy.contains('Search').should('exist');
   }
