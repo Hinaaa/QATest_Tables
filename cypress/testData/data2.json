@@ -1,0 +1,14 @@
+[
+	{
+		"tc":"2_ErrorMessageOncreateTable'",  
+		"tableName":"Auto Table creation1",
+		"hashAttributeName":"Auto hash attribute name1",
+		"hashAttributeType":"String",
+		"rangeAttributeName":"Auto range Attribute name1",
+		"rangeAttributeType":"String",
+		"readCapacityUnits":"3",
+		"writeCapacityUnits":"3"
+	
+	}
+	]
+	

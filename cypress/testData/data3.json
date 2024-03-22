@@ -1,0 +1,16 @@
+[
+	{
+		"tc":"1_createTable'",  
+		"hashAttributeName":"Auto hash attribute name1",
+		"hashAttributeType":"String",
+		"rangeAttributeName":"Auto range Attribute name1",
+		"rangeAttributeType":"String",
+		"readCapacityUnits":"3",
+		"writeCapacityUnits":"3",
+		"tabName1":"Items",
+		"tabName2":"Get",
+		"tabName3":"Meta"
+
+	}
+	]
+	
