@@ -23,7 +23,7 @@ Visual Studio IDE  , to view the files
 2. Currency Convert of Given Amount From INR
 3. Validate Convert Button and Currency Conver to Given Amount Via Calculator GPB to EUR
 
-**TestSuit3:UserStory2**
+**TestSuit:UserStory1**
 
 **TestCases**
 
